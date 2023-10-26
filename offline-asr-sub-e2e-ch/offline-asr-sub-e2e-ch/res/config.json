@@ -1,0 +1,21 @@
+{
+    "version": "cn.e2e.asr.offline.normal.v1.0",
+    "model": "model.pt",
+    "language": "cn",
+    "words_dict": "words_dict.txt",
+    "feat_num_mels_bins": 80,
+    "feat_samp_freq": 16000,
+    "feat_frame_shift_ms": 20,
+    "feat_frame_length_ms": 30,
+    "feat_fbank_dither": 0.0,
+    "feat_fbank_vtln_warp": 1.0,
+    "feat_use_pitch": true,
+    "feat_pitch_delta_noise": 0.0,
+    "feat_use_cmvn": true,
+    "feat_cmvn": "cmvn.ark",
+    "feat_cmvn_use_norm_vars": true,
+    "model_thresh": 0.8,
+    "model_num_iteration": 10,
+    "model_sample_factor": 4,
+    "use_gpu": false
+}

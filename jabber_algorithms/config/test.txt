@@ -1,0 +1,5 @@
+#[redis_server]
+#ip = r-2ze8310e351a5fe4.redis.rds.aliyuncs.com
+#port = 6379
+#db = 0
+#passwd = OaUEEKCAwaSsNmOewG2l

@@ -1,0 +1,60 @@
+2019-03-25 11:01:11,298 - INFO - 19498 - textcleaner.py - <module> - 37 - 'pattern' package not found; tag filters are not available for English
+2019-03-25 11:01:11,528 - INFO - 19498 - algorithms.py - interaction - 20 - task_id:99e6eb21-3baa-4a51-9534-c9c81b670727
+2019-03-25 11:01:11,595 - INFO - 19498 - algorithms.py - multi - 29 - task_id:99e6eb21-3baa-4a51-9534-c9c81b670727
+2019-03-25 11:01:11,598 - INFO - 19498 - algorithms.py - jabber_detector - 12 - task_id:99e6eb21-3baa-4a51-9534-c9c81b670727
+2019-03-25 11:01:11,598 - INFO - 19498 - jabber.py - get_course_jabberTS_ms - 137 - Parser teacher and student json success! Start get jabber
+2019-03-25 11:01:11,598 - INFO - 19498 - jabber.py - process_input_date - 44 - Start parser student_text and teacher_text json data
+2019-03-25 11:01:11,668 - ERROR - 19498 - jsonStrParserTool.py - jsonParserMerge - 115 - Error parser jsonStr,detail is 
+Traceback (most recent call last):
+  File "/home/x/anaconda3/envs/py3/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 3078, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'status_code'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/x/Desktop/workplace/godeye_server_algorithms/src/tools/jsonStrParserTool.py", line 93, in jsonParserMerge
+    df['status_code'] = df['status_code'].apply(lambda x: int(x))
+  File "/home/x/anaconda3/envs/py3/lib/python3.6/site-packages/pandas/core/frame.py", line 2688, in __getitem__
+    return self._getitem_column(key)
+  File "/home/x/anaconda3/envs/py3/lib/python3.6/site-packages/pandas/core/frame.py", line 2695, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/x/anaconda3/envs/py3/lib/python3.6/site-packages/pandas/core/generic.py", line 2489, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/x/anaconda3/envs/py3/lib/python3.6/site-packages/pandas/core/internals.py", line 4115, in get
+    loc = self.items.get_loc(item)
+  File "/home/x/anaconda3/envs/py3/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1492, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1500, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'status_code'
+
+2023-05-10 17:52:15,592 - ERROR - 14864 - __init__.py - initialize - 156 - Dump cache file failed.
+Traceback (most recent call last):
+  File "/home/diaoaijie/anaconda3/envs/myconda/lib/python3.7/site-packages/jieba/__init__.py", line 154, in initialize
+    _replace_file(fpath, cache_file)
+PermissionError: [Errno 1] Operation not permitted: '/tmp/tmp89fsvlbp' -> '/tmp/jieba.cache'
+2023-05-10 17:54:21,886 - ERROR - 14993 - __init__.py - initialize - 156 - Dump cache file failed.
+Traceback (most recent call last):
+  File "/home/diaoaijie/anaconda3/envs/myconda/lib/python3.7/site-packages/jieba/__init__.py", line 154, in initialize
+    _replace_file(fpath, cache_file)
+PermissionError: [Errno 1] Operation not permitted: '/tmp/tmph4wcg65o' -> '/tmp/jieba.cache'
+2023-05-10 18:48:49,168 - ERROR - 17719 - __init__.py - initialize - 156 - Dump cache file failed.
+Traceback (most recent call last):
+  File "/home/diaoaijie/anaconda3/envs/myconda/lib/python3.7/site-packages/jieba/__init__.py", line 154, in initialize
+    _replace_file(fpath, cache_file)
+PermissionError: [Errno 1] Operation not permitted: '/tmp/tmpzay5czbk' -> '/tmp/jieba.cache'
+2023-05-11 09:59:43,876 - ERROR - 23101 - __init__.py - initialize - 156 - Dump cache file failed.
+Traceback (most recent call last):
+  File "/home/diaoaijie/anaconda3/envs/myconda/lib/python3.7/site-packages/jieba/__init__.py", line 154, in initialize
+    _replace_file(fpath, cache_file)
+PermissionError: [Errno 1] Operation not permitted: '/tmp/tmptghr7f76' -> '/tmp/jieba.cache'
+2023-05-11 10:32:22,616 - INFO - 25880 - keyedvectors.py - _load_word2vec_format - 2051 - loading projection weights from 
+2023-05-11 10:34:48,376 - INFO - 26115 - keyedvectors.py - _load_word2vec_format - 2051 - loading projection weights from ../../data/base/model
+2023-05-11 10:36:03,095 - INFO - 26259 - keyedvectors.py - _load_word2vec_format - 2051 - loading projection weights from ../../data/base/model/jabberEmbedding_small.plk

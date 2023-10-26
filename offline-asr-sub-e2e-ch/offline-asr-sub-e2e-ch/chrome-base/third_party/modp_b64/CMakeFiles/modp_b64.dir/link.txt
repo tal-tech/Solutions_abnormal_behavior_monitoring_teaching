@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../debug/lib/debug/libmodp_b64.a CMakeFiles/modp_b64.dir/modp_b64.cc.o
+/usr/bin/ranlib ../../../debug/lib/debug/libmodp_b64.a

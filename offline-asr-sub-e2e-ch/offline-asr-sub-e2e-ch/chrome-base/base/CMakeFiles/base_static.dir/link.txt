@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../debug/lib/debug/libbase_static.a CMakeFiles/base_static.dir/base_switches.cc.o
+/usr/bin/ranlib ../../debug/lib/debug/libbase_static.a

@@ -1,0 +1,5 @@
+3b4da4b6ede47f4ddf391d5c5291e0d9  cn.e2e.asr.Pgen.Xgen.v2.2.0/cmvn.ark
+5175d86a26667347b728de5cadd77058  cn.e2e.asr.Pgen.Xgen.v2.2.0/config.json
+e8b0b6a2d0db9faa166f276418b405bf  cn.e2e.asr.Pgen.Xgen.v2.2.0/model.pt
+d11a79b24478f9cf3f34ca4933901e4c  cn.e2e.asr.Pgen.Xgen.v2.2.0/readme.txt
+1f89ff90af4c70b7f5c5fe97c66cdde4  cn.e2e.asr.Pgen.Xgen.v2.2.0/words_dict.txt

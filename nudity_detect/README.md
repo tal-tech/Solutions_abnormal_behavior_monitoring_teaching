@@ -1,0 +1,4 @@
+demo代码在nudity_process.py
+
+下载完修改config里面的路径，修改图片路径
+运行nudity_process.py即可运行
